@@ -16,11 +16,6 @@ def displaySequence(number_of_outputs)
 	end  
 	puts fibseq.to_s 
 end 
-
-
 puts "How many numbers would you like to see?"
 number_of_outputs = gets.chomp.to_i 
-
 displaySequence(number_of_outputs)
-
-
